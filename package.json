@@ -1,0 +1,43 @@
+{
+  "name": "ilmnet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.13.5",
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "express-validator": "^7.3.1",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.0.2",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^8.0.1",
+    "passport": "^0.7.0",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth20": "^2.0.0",
+    "pg": "^8.18.0",
+    "pg-hstore": "^2.3.4",
+    "qrcode": "^1.5.4",
+    "sequelize": "^6.37.7",
+    "sharp": "^0.34.5",
+    "socket.io": "^4.8.3",
+    "speakeasy": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
